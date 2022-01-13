@@ -1,0 +1,35 @@
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/ccxt@1.67.36/dist/ccxt.browser.js"></script>
+
+<h6>Version 0.0.3</h6>
+
+<h2 align=center>CCXT Browser example</h2>
+Obviously has some security issues, I would use localstorge to save anything important.<br><br>
+
+using scripts: check version number update and re-test<br>
+<a href="https://cdn.jsdelivr.net/npm/ccxt">https://cdn.jsdelivr.net/npm/ccxt<br> 
+  
+<a href="https://unpkg.com/ololog">https://unpkg.com/ololog<br> 
+  
+<a href="https://unpkg.com/as-table">https://unpkg.com/as-table<br> 
+<a href="https://unpkg.com/ansicolor">https://unpkg.com/ansicolor<br> 
+  
+  
+
+Github at: <a href="https://github.com/ccxt/ccxt">https://github.com/ccxt/ccxt</a><br>
+
+Manual at:<a href="https://docs.ccxt.com/en/latest/manual.html">https://docs.ccxt.com/en/latest/manual.html</a><br>
+
+
+
+
+
+<input type=button value=gpo onclick="{
+
+console.log (ccxt.exchanges)
+
+document.getElementById('myDiv01').innerHTML = JSON.stringify(ccxt.exchanges, null, '<br>')
+
+}">
+
+
+<div id="myDiv01">...</div>
