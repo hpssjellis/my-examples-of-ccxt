@@ -22,3 +22,8 @@ https://www.tabnine.com/code/javascript/functions/ccxt/exchanges
 
 https://www.tabnine.com/code/javascript/modules/ccxt
 
+
+
+Review Ticker API's
+
+https://syncwith.com/crypto-apis
